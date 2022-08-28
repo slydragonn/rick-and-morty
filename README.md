@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hecho con [Next.js](https://nextjs.org/) y [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Link Demo
+[Rick and Morty](https://rick-and-morty-ochre-one.vercel.app/)
 
-First, run the development server:
+### Iniciar
+
+Correr el servidor:
 
 ```bash
 npm run dev
@@ -10,4 +13,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Y abrir [http://localhost:3000](http://localhost:3000).

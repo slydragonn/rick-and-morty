@@ -1,0 +1,30 @@
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #506266;
+  color: #fff;
+  border-bottom: 16px solid #fff;
+}
+
+.header tr th{
+  padding: 16px 5px;
+}
+
+.header tr th:first-child {
+  border-top-left-radius: 8px;
+}
+.header tr th:nth-child(9) {
+  border-top-right-radius: 8px;
+}
+
+.body tr td {
+  text-align: center;
+  color: #10454F;
+  padding: 16px 5px;
+}

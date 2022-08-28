@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  height: 35px;
+  padding: 5px 15px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  margin-left: 16px;
+}
+
+.input {
+  width: 100px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+  color: #10454F;
+}
+
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  color: #cbcbcb;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin: 16px 0 0 0;
+  }
+}
